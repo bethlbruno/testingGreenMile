@@ -3,9 +3,9 @@ Autora: Elizabeth Lucas Bruno
 Cargo: QA Analyst
 
 ## Diretórios do projeto
-**Documentação**
-*Documento de sugestões de melhorias  -> Melhorias.pdf
-*Tabela de casos de teste -> Casos de Teste - Greenmile.pdf
+**Documentação** <br/>
+*Documento de sugestões de melhorias  -> Melhorias.pdf <br/>
+*Tabela de casos de teste -> Casos de Teste - Greenmile.pdf <br/>
 
 **Testes comportamentais automatizados**
 ### **Requisitos para rodar na máquina**
