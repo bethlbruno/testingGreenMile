@@ -50,7 +50,7 @@ def step_impl(context):
     login_button = context.driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div/button')
     login_button.click()
 
-    wait_for_element_visibility_xpath(context, '/html/body/div[1]/div/div[2]/header/div/nav/ul/li[1]/a')
+    wait_for_element_visibility_xpath(context, '/html/body/div[1]/div/div[2]/header/div/nav/ul')
 
     maintance_dropdown = context.driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/header/div/nav/ul/li[1]/a')
     maintance_dropdown.click()
@@ -58,13 +58,13 @@ def step_impl(context):
     smart_survey_item = context.driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/header/div/nav/ul/li[1]/ul/li[2]/a')
     smart_survey_item.click()
 
-    new_form_bar = EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div[2]/main/div/div[3]/div/div[3]/form/div[2]/div'))
+    new_form_bar = EC.element_to_be_clickable((By.ID, 'Survey_btn_novo'))
     WebDriverWait(context.driver, 10).until(new_form_bar)
 
     new_form_button = context.driver.find_element_by_id('Survey_btn_novo')
     new_form_button.click()
 
-    wait_for_element_visibility_id(context, 'Survey_description')
+    wait_for_element_visibility_xpath(context, '/html/body/div[1]/div/div[2]/main/div/div[3]/div/div[3]/form/div[3]/div[2]/div[1]/div[2]/input')
 
     description_field = context.driver.find_element_by_xpath('/html/body/div[1]/div/div[2]/main/div/div[3]/div/div[3]/form/div[3]/div[2]/div[1]/div[2]/input')
     description_field.send_keys(context.form_description)
@@ -101,7 +101,7 @@ def step_impl(context):
     grid_elements = context.driver.find_elements_by_xpath('/html/body/div[1]/div/div[2]/main/div/div[3]/div/div[2]/form/div[3]/div[2]/div[2]/div[5]/div[3]/div')
     element = False
     for i in grid_elements:
-        if(context.form_description in i.text):
+        if (context.form_description in i.text):
             element = True
             break
     assert element is True
