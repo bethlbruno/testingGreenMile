@@ -1,1 +1,5 @@
 [0311/180936.307:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0312/204907.943:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0312/204907.947:ERROR:exception_snapshot_win.cc(98)] thread ID 7180 not found in process
+[0312/204907.963:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acesso Negado} Um processo solicitou acesso a um objeto, mas o direito de acesso não lhe foi concedido. (0xc0000022)
+[0312/204907.963:ERROR:exception_snapshot_win.cc(98)] thread ID 3716 not found in process
