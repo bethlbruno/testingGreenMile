@@ -1,8 +1,8 @@
 # Projeto para Seleção Greenmile
-Autora: Elizabeth Lucas Bruno
+Autora: Elizabeth Lucas Bruno <br/>
 Cargo: QA Analyst
 
-## Diretórios do projeto
+## Diretórios do projeto:
 ### **Documentação** <br/>
 -Documento de sugestões de melhorias  -> Melhorias.pdf <br/>
 -Tabela de casos de teste -> Casos de Teste - Greenmile.pdf <br/>
