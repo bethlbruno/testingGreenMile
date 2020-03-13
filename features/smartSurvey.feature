@@ -7,5 +7,5 @@ Feature: Smart Survey
 
     Scenario: Searching for a created form
       Given GreenMile is running #2
-      When a user serach for a pre existent form
+      When a user searches for a pre existent form
       Then GreenMile Service returns the one the user searched

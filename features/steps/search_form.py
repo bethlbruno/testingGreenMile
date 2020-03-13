@@ -29,7 +29,7 @@ def step_impl(context):
     greenMile_service = requests.get('https://demo.greenmile.com')
     assert greenMile_service.status_code == 200
 
-@when("a user serach for a pre existent form")
+@when("user searches for a pre existent form")
 def step_impl(context):
     context.user = 'GM-Elizabeth'
     context.password = 'greenmile'
