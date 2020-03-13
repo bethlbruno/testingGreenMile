@@ -4,8 +4,8 @@ Cargo: QA Analyst
 
 ## Diretórios do projeto
 **Documentação**
--Documento de sugestões de melhorias  -> Melhorias.pdf
--Tabela de casos de teste -> Casos de Teste - Greenmile.pdf
+*Documento de sugestões de melhorias  -> Melhorias.pdf
+*Tabela de casos de teste -> Casos de Teste - Greenmile.pdf
 
 **Testes comportamentais automatizados**
 ### **Requisitos para rodar na máquina**
