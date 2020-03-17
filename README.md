@@ -14,5 +14,6 @@ Cargo: QA Analyst
 -Instalar o selenium (pip install selenium). <br/>
 
 #### **Para executar os testes**
+-Navegar até o diretório testingGreenMile/features/steps e modificar o path dos webdrivers de acordo com o diretório do projeto na máquina; <br/>
 -Navegar até o diretório testingGreenMile/features; <br/>
 -Executar o comando: behave.
